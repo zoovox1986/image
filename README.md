@@ -7,8 +7,10 @@ All images here are auxiliary materials for my own writing, tutorials, and artic
 ## CDN Usage
 All static files are delivered via jsDelivr open-source CDN for faster global access.
 CDN URL format:
-`CDN URL format:
 `https://cdn.jsdelivr.net/gh/zoovox1986/image@main/[IMAGE_FOLDER]/image-name.jpg`
+
+Example real link (for reference only):
+`https://cdn.jsdelivr.net/gh/zoovox1986/image@main/blog/demo-screenshot.jpg`
 
 ## Compliance Statement (Critical for jsDelivr Policy)
 1. This repo is a supporting asset library for my personal open writing projects, NOT a standalone commercial/public image hosting platform.
