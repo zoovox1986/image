@@ -1,32 +1,31 @@
-# image
-# Static Asset Repository for Personal Blog & Documentation
+# Static Asset Repository for Personal ZBlog Blog
 ## Project Overview
-This repository stores static image assets exclusively for my personal Markdown notes, personal blog, and self-maintained open-source document projects.
-All images here are auxiliary materials for my own writing, tutorials, and article illustrations, not a public general image hosting service for third-party users.
+This repository stores image assets exclusively for my self-hosted ZBlog blog site.
+All images are automatically synchronized via my self-developed private ZBlog plugin.
+This is only a supporting static resource library for my own blog, NOT a public third-party image hosting service for others.
 
-## CDN Usage
-All static files are delivered via jsDelivr open-source CDN for faster global access.
-CDN URL format:
+## CDN Access Rule
+All images are delivered through jsDelivr open-source CDN for faster access.
+Standard CDN link format:
 `https://cdn.jsdelivr.net/gh/zoovox1986/image@main/[IMAGE_FOLDER]/image-name.jpg`
 
-Example real link (for reference only):
-`https://cdn.jsdelivr.net/gh/zoovox1986/image@main/blog/demo-screenshot.jpg`
+Demo reference link:
+`https://cdn.jsdelivr.net/gh/zoovox1986/image@main/blog/article-demo.jpg`
 
-## Compliance Statement (Critical for jsDelivr Policy)
-1. This repo is a supporting asset library for my personal open writing projects, NOT a standalone commercial/public image hosting platform.
-2. No third-party users are allowed to upload images to this repository; all files are uploaded manually by myself for personal content only.
-3. All image files comply with GitHub Terms of Service and jsDelivr Acceptable Use Policy:
-   - No pornographic, violent, illegal, copyright-infringing materials
-   - No malware, executable programs, large video backups
-   - Single image file size strictly limited under 10MB (well below jsDelivr 20MB hard limit)
-4. Repository storage cap controlled under 800MB to avoid storage abuse review.
-5. Active accessed file count kept under 10,000 as jsDelivr official recommendation.
+## Compliance Declaration (For GitHub & jsDelivr Policy)
+1. All files are uploaded only by my self-built ZBlog plugin for my personal blog content, no external users can upload files to this repository.
+2. This repo is an auxiliary asset storage matching my personal blog, not an independent commercial image hosting platform.
+3. File restriction rules I strictly follow:
+   - Single image file size ≤ 10MB
+   - No illegal, copyrighted, violent, pornographic, privacy-involved materials
+   - No video, installation packages, compressed backup files
+4. Total storage of this repository will be controlled below 800MB to avoid storage abuse review.
+5. No mass crawler access or high concurrency external traffic from third-party websites.
 
-## File Structure
-- `/blog`: Images for personal blog articles
-- `/notes`: Screenshots & illustrations for Markdown notes
-- `/tutorial`: Demo images for self-written technical guides
+## File Directory Structure
+- /blog: All article cover images & in-post screenshots synced from ZBlog
+- /other: Extra static illustrations for technical articles
 
 ## Policy Reference
 - jsDelivr Acceptable Use Policy: https://www.jsdelivr.com/terms/acceptable-use-policy-jsdelivr-net
-- GitHub Community Guidelines: https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies
+- GitHub Acceptable Use Policies: https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies
